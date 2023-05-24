@@ -1,0 +1,11 @@
+C:\Users\admin\source\repos\MonitorOff\MonitorOff\bin\Release\MonitorOff.exe.config
+C:\Users\admin\source\repos\MonitorOff\MonitorOff\bin\Release\MonitorOff.exe
+C:\Users\admin\source\repos\MonitorOff\MonitorOff\bin\Release\MonitorOff.pdb
+C:\Users\admin\source\repos\MonitorOff\MonitorOff\obj\Release\MonitorOff.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\MonitorOff\MonitorOff\obj\Release\MonitorOff.csproj.SuggestedBindingRedirects.cache
+C:\Users\admin\source\repos\MonitorOff\MonitorOff\obj\Release\MonitorOff.Form1.resources
+C:\Users\admin\source\repos\MonitorOff\MonitorOff\obj\Release\MonitorOff.Properties.Resources.resources
+C:\Users\admin\source\repos\MonitorOff\MonitorOff\obj\Release\MonitorOff.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\MonitorOff\MonitorOff\obj\Release\MonitorOff.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\MonitorOff\MonitorOff\obj\Release\MonitorOff.exe
+C:\Users\admin\source\repos\MonitorOff\MonitorOff\obj\Release\MonitorOff.pdb

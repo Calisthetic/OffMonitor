@@ -48,7 +48,16 @@ namespace Screenshots
                     Directory.CreateDirectory(currentDirectory);
             }
             DateTime timeNow = DateTime.Now;
+<<<<<<< HEAD
+            string fileName = timeNow.Year
+                + "-" + (timeNow.Month / 10 == 0 ? "0" + timeNow.Month : timeNow.Month)
+                + "-" + (timeNow.Day / 10 == 0 ? "0" + timeNow.Day : timeNow.Day)
+                + " " + (timeNow.Hour / 10 == 0 ? "0" + timeNow.Hour : timeNow.Hour)
+                + (timeNow.Minute / 10 == 0 ? "0" + timeNow.Minute : timeNow.Minute)
+                + (timeNow.Second / 10 == 0 ? "0" + timeNow.Second : timeNow.Second);
+=======
             string fileName = timeNow.Year + "-" + timeNow.Month + "-" + timeNow.Day + " " + timeNow.Hour + timeNow.Minute + timeNow.Second;
+>>>>>>> 49253190a4321e95b3bee953a8fb7fbd6347da78
             using (Stream s = new FileStream(currentDirectory + @"\" + fileName + ".jpg", FileMode.Create, FileAccess.Write))
                 img.Save(s, System.Drawing.Imaging.ImageFormat.Jpeg);
             this.Show();
@@ -72,7 +81,16 @@ namespace Screenshots
                     Directory.CreateDirectory(currentDirectory);
             }
             DateTime timeNow = DateTime.Now;
+<<<<<<< HEAD
+            string fileName = timeNow.Year
+                + "-" + (timeNow.Month / 10 == 0 ? "0" + timeNow.Month : timeNow.Month)
+                + "-" + (timeNow.Day / 10 == 0 ? "0" + timeNow.Day : timeNow.Day)
+                + " " + (timeNow.Hour / 10 == 0 ? "0" + timeNow.Hour : timeNow.Hour)
+                + (timeNow.Minute / 10 == 0 ? "0" + timeNow.Minute : timeNow.Minute)
+                + (timeNow.Second / 10 == 0 ? "0" + timeNow.Second : timeNow.Second);
+=======
             string fileName = timeNow.Year + "-" + timeNow.Month + "-" + timeNow.Day + " " + timeNow.Hour + timeNow.Minute + timeNow.Second;
+>>>>>>> 49253190a4321e95b3bee953a8fb7fbd6347da78
             using (Stream s = new FileStream(currentDirectory + @"\" + fileName + ".jpg", FileMode.Create, FileAccess.Write))
                 img.Save(s, System.Drawing.Imaging.ImageFormat.Jpeg);
             this.Show();

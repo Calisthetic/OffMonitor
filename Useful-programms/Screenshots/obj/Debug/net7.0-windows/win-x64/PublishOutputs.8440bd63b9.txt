@@ -1,0 +1,2 @@
+C:\Users\admin\Source\Repos\Useful-programms\Useful-programms\Screenshots\bin\Debug\net7.0-windows\win-x64\publish\Screenshots.pdb
+C:\Users\admin\Source\Repos\Useful-programms\Useful-programms\Screenshots\bin\Debug\net7.0-windows\win-x64\publish\Screenshots.exe

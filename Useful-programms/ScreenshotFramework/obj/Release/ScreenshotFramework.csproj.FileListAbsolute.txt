@@ -1,0 +1,15 @@
+C:\Users\admin\Source\Repos\Useful-programms\Useful-programms\ScreenshotFramework\bin\Release\ScreenshotFramework.exe.config
+C:\Users\admin\Source\Repos\Useful-programms\Useful-programms\ScreenshotFramework\bin\Release\ScreenshotFramework.exe
+C:\Users\admin\Source\Repos\Useful-programms\Useful-programms\ScreenshotFramework\bin\Release\ScreenshotFramework.pdb
+C:\Users\admin\Source\Repos\Useful-programms\Useful-programms\ScreenshotFramework\obj\Release\ScreenshotFramework.csproj.AssemblyReference.cache
+C:\Users\admin\Source\Repos\Useful-programms\Useful-programms\ScreenshotFramework\obj\Release\MainWindow.g.cs
+C:\Users\admin\Source\Repos\Useful-programms\Useful-programms\ScreenshotFramework\obj\Release\App.g.cs
+C:\Users\admin\Source\Repos\Useful-programms\Useful-programms\ScreenshotFramework\obj\Release\ScreenshotFramework_MarkupCompile.cache
+C:\Users\admin\Source\Repos\Useful-programms\Useful-programms\ScreenshotFramework\obj\Release\ScreenshotFramework_MarkupCompile.lref
+C:\Users\admin\Source\Repos\Useful-programms\Useful-programms\ScreenshotFramework\obj\Release\MainWindow.baml
+C:\Users\admin\Source\Repos\Useful-programms\Useful-programms\ScreenshotFramework\obj\Release\ScreenshotFramework.g.resources
+C:\Users\admin\Source\Repos\Useful-programms\Useful-programms\ScreenshotFramework\obj\Release\ScreenshotFramework.Properties.Resources.resources
+C:\Users\admin\Source\Repos\Useful-programms\Useful-programms\ScreenshotFramework\obj\Release\ScreenshotFramework.csproj.GenerateResource.cache
+C:\Users\admin\Source\Repos\Useful-programms\Useful-programms\ScreenshotFramework\obj\Release\ScreenshotFramework.csproj.CoreCompileInputs.cache
+C:\Users\admin\Source\Repos\Useful-programms\Useful-programms\ScreenshotFramework\obj\Release\ScreenshotFramework.exe
+C:\Users\admin\Source\Repos\Useful-programms\Useful-programms\ScreenshotFramework\obj\Release\ScreenshotFramework.pdb

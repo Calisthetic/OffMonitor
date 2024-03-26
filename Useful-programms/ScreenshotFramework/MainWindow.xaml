@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ScreenshotFramework"
         mc:Ignorable="d"
-        Title="Screen" MinHeight="213" MinWidth="316" MaxHeight="213" KeyDown="Window_KeyDown" MaxWidth="316" Icon="/target.png">
+        Title="Screen" MinHeight="213" MinWidth="316" MaxHeight="213" KeyDown="Window_KeyDown" MaxWidth="316" Icon="/target.png" Loaded="Window_Loaded">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="150"/>

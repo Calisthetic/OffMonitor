@@ -16,6 +16,8 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Windows.Forms;
+using System.Runtime.InteropServices;
+using System.Windows.Interop;
 //using System.Windows.Forms;
 
 namespace ScreenshotFramework
@@ -26,9 +28,26 @@ namespace ScreenshotFramework
     public partial class MainWindow : Window
     {
         public static Bitmap img = new Bitmap(Screen.PrimaryScreen.Bounds.Width, Screen.PrimaryScreen.Bounds.Height);
+        [DllImport("dwmapi.dll")]
+        private static extern int DwmSetWindowAttribute(IntPtr hwnd, int attr, ref int attrValue, int attrSize);
+
+        private const int DWMWA_TRANSITIONS_FORCEDISABLED = 3;
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void DisableWindowTransitions()
+        {
+            if (Environment.OSVersion.Version.Major >= 6)
+            {
+                IntPtr windowHandle = new WindowInteropHelper(this).Handle;
+                int BOOL_TRUE = 1;
+                int HR = DwmSetWindowAttribute(windowHandle, DWMWA_TRANSITIONS_FORCEDISABLED, ref BOOL_TRUE, Marshal.SizeOf(BOOL_TRUE));
+
+                if (HR != 0)
+                    Marshal.ThrowExceptionForHR(HR);
+            }
         }
 
         private void takeScreen_Click(object sender, RoutedEventArgs e)
@@ -63,7 +82,6 @@ namespace ScreenshotFramework
 
         private void TakeScreenshot()
         {
-            System.Threading.Thread.Sleep(400);
             Graphics gr = Graphics.FromImage(img as System.Drawing.Image);
             gr.CopyFromScreen(0, 0, 0, 0, img.Size);
 
@@ -87,6 +105,11 @@ namespace ScreenshotFramework
                 + Bebebe(timeNow.Second);
             using (Stream s = new FileStream(currentDirectory + @"\" + fileName + ".jpg", FileMode.Create, FileAccess.Write))
                 img.Save(s, System.Drawing.Imaging.ImageFormat.Jpeg);
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            DisableWindowTransitions();
         }
     }
 }

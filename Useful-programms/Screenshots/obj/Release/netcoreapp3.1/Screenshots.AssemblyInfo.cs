@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Screenshots")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8fcdd3a5077d5094ccb5a80be87dcc9e423c8c88")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef75b7974a0d0ffd5c8ae82b99a10ad186916673")]
 [assembly: System.Reflection.AssemblyProductAttribute("Screenshots")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Screenshots")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
